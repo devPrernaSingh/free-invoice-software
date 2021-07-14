@@ -1,0 +1,71 @@
+.box-style .box-icon-style {
+  border: 2px solid #0652dd;
+  background-image: linear-gradient(#0652dd 0%, #0652dd 100%);
+}
+.box-style .box-icon-style::after {
+  background: linear-gradient(#0652dd 0%, #0652dd 100%);
+}
+.borderRadius1 {
+  border-radius: 10px;
+}
+.page-scroll:hover {
+  color: #0652dd !important;
+}
+.fs1 {
+  font-size: 18px;
+}
+.contact-section.cta-bg::after {
+ background: linear-gradient(to left, rgba(111, 88, 232, 0.18) 0%, #0652dd 100%); }
+
+.faqs {
+  background-color: #fafafa;
+}
+.review {
+  box-shadow: 3px 3px 3px grey;
+}
+.next-prev,
+.next-prev:active,
+.next-prev:focus {
+  font-size: 30px;
+  font-weight: 600;
+  color: #0652dd;
+}
+.next-prev:hover {
+  font-size: 35px;
+}
+.scroll-top {
+  background: #0652dd;
+}
+
+.scroll-top:hover {
+  background: #658dd8;
+}
+.bulbColor {
+  /* color: #E74C3C !important;  */
+  font-size: 30px !important;
+  padding-right: 8px !important;
+}
+.grey-background {
+  background-color: rgba(239, 239, 239, 0.7);
+}
+.bgColor {
+  background-color: #0652dd !important;
+}
+.textColor,
+.readMore,
+.readLess {
+  color: #0652dd !important;
+}
+.box-style {
+  min-height: 420px;
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .box-style {
+    min-height: 444px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .box-style {
+    min-height: 467px;
+  }
+}
